@@ -3,39 +3,32 @@
 <head>
     <title> About JavaScript </title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <strong>kingdomy</strong> 테스트 입니다. <br>줄바꿈을 해 보아요.
-    <p style="margin-top: 30px;"><b><u>kingdomy</u></b> 테스트 입니다.</p>
-
-    <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0kx9m_s99t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-
-        </iframe>
-    </p>
-    <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dPRtcRwKo-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </p>
     <h1><a href="index.html">WEB</a></h1>
-    <h2>W2C</h2>
-    <h3>WEB2 JavaScript</h3>
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor='black'
+        document.querySelector('body').style.color='white'
+    ">
+    <input type="button" value="day"  onclick="
+        document.querySelector('body').style.backgroundColor='white'
+        document.querySelector('body').style.color='black'
+    ">
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
 
-    <ol>
-        <li><a href="1.html" target="blank" title="kjames">WEB1 HTML</a></li>
-        <li><a href="2.html">WEB2 CSS </a></li>
-        <li><a href="3.html">WEB2 JavaScript</a></li>
-    </ol>
-
-    <input type="checkbox">
-    <input type="checkbox">
-
-    <br><b>WEB2 JavaScript</b>
-
-
-    <img src ="program.jpg" width="100%">
-    <h4>W4C</h4>
-    <h5>W5C</h5>
-    <h6>W6C</h6>
+        <div id="article">
+            <h2>JAVASCRIPT</h2>
+            자바스크립트(Javascript)는 객체 기반의 스크립트 프로그래밍 언어이다. 
+            이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 
+            또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다.
+        </div>
+    </div>
 </body>
 </html>
